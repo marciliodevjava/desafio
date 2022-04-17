@@ -8,3 +8,11 @@ public class ContadorCaracterer {
 		}
 	}
 }
+
+
+
+
+
+
+
+
