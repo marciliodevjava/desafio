@@ -12,14 +12,14 @@ public class Data {
 		this.mes = 1970;
 	}
 
-	Data(int diaInicial, int mesInicial, int anoInicial) {
-		this.dia = diaInicial;
-		this.mes = mesInicial;
-		this.ano = anoInicial;
+	Data(int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 
 	String ObterDataFormatada() {
-		return String.format("Data: %d/%d/%d", dia, mes, ano);
+		return String.format("Data: %d/%d/%d", this.dia, this.mes, this.ano);
 	}
 
 	void imprimirDataFormata() {
