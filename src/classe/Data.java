@@ -25,4 +25,5 @@ public class Data {
 	void imprimirDataFormata() {
 		System.out.println(ObterDataFormatada());
 	}
+	
 }
