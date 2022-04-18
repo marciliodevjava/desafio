@@ -11,6 +11,7 @@ public class Data {
 //		this.mes = 1;
 //		this.mes = 1970;
 		this(1, 1, 1970);
+		
 	}
 
 	Data(int dia, int mes, int ano) {
