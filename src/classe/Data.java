@@ -5,7 +5,6 @@ public class Data {
 	int dia;
 	int mes;
 	int ano;
-	String formato="Data: %d/%d/%d";
 
 	Data() {
 //		this.dia = 1;
@@ -21,6 +20,7 @@ public class Data {
 	}
 
 	String ObterDataFormatada() {
+		String formato="Data: %d/%d/%d";
 		return String.format(formato, this.dia, this.mes, this.ano);
 	}
 
