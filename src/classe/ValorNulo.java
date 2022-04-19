@@ -11,9 +11,10 @@ public class ValorNulo {
 		Data d1 = Math.random() > 0.5 ? new Data() : null;
 		if (d1 != null) {
 			d1.mes = 3;
+			System.out.println(d1.ObterDataFormatada()); 
 		}
 
-		String s2 = null;// Error de runtime
+		String s2 = Math.random() > 0.5 ? "opa" : null;// Error de runtime
 
 		if (s2 != null) {
 			System.out.println(s2.concat("????"));
