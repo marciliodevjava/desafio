@@ -10,6 +10,8 @@ public class ValoresPadraoVariaveis {
 	double f = 0.0;// Valor Padrão
 	boolean g = false;// Valor Padrão
 	char h = 0;// Valor Padrão
-	String i = "";
+	String i = null;// Valor Padrão "Não aponta para nenhum local de memoria
+	
+	
 	
 }
